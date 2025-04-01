@@ -50,7 +50,7 @@ npm install
 ```bash
 npm run dev
 ```
-The site will be available at `http://localhost:3000/`.
+The site will be available at `(https://portfolio-website-umber-ten-21.vercel.app/)`.
 
 ## 🌎 Deployment & Hosting
 This site is **auto-deployed on Vercel**. If changes made in **Prismic** do not appear, you may need to:

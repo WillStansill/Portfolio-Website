@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌐 Will Stansill – Blockchain Developer Portfolio
 
-## Getting Started
+Welcome to my personal portfolio! This website showcases my experience, projects, research, and technical expertise in blockchain development. Built with **Prismic**, deployed via **Vercel**, and leveraging **IPFS** for document hosting, this site serves as a comprehensive hub for my contributions to the Web3 space.
 
-First, run the development server:
+## 🚀 About Me
+As an experienced blockchain developer specializing in **Solidity** and **Foundry**, I am passionate about building decentralized applications (**DApps**) and smart contracts. My background in **Global Studies** has given me a unique perspective on blockchain's impact on global economic agency, decentralized finance (**DeFi**), and sustainable development.
 
+## 🏗️ Technologies I Use
+- **Smart Contract Development**: Solidity, Foundry, Hardhat
+- **Blockchain Infrastructure**: Ethereum, zkSync, Chainlink, OpenZeppelin
+- **Full-Stack Development**: JavaScript, TypeScript, React.js, Next.js
+- **Development Tools**: Ethers.js, MetaMask, IPFS, Apollo GraphQL
+- **Testing & Security**: Fuzz Testing, ECDSA Signatures, Merkle Trees
+
+## 🛠️ Project Highlights
+Here are some of the key projects featured in my portfolio:
+
+- **[Account Abstraction in Ethereum & zkSync Wallets](#)** – Implemented flexible account management with **ECDSA signatures**.
+- **[Governance DAO](#)** – Developed a **DAO governance system** using **ERC20 tokens** and **TimelockController**.
+- **[MoonVault](#)** – A blockchain data aggregator using the **Ethereum Attestation Service (EAS)** and **Apollo GraphQL**.
+- **[StableCoin Project](#)** – Designed an **endogenous stablecoin** secured with **Chainlink Oracles**.
+- **[MerkleTree Airdrop with Signature Verification](#)** – Built a **secure airdrop system** leveraging **Merkle trees**.
+
+## 📖 Articles & Research
+Beyond development, I am actively engaged in **blockchain research and writing**. Some notable articles include:
+- **Blockchain and Data Privacy** – Exploring the intersection of blockchain and digital security.
+- **Smart Grids & Blockchain** – How decentralized energy can transform communities in poverty.
+- **NFTs & Digital Ownership** – The evolving role of NFTs in the creator economy.
+
+## 🌍 Education & Background
+- **BA in Global Studies**, Appalachian State University (2018-2023)
+- Thesis: *"The Case for Decentralized Development as an Alternative to Centralized Models of Economics"*
+- Minor: **Nonprofit Management**, focusing on sustainable development & decentralized economies.
+
+## 📂 How to Use This Repository
+This repository powers my **Prismic-managed portfolio** hosted on **Vercel**. If you wish to contribute, modify, or run the site locally:
+
+### 1️⃣ Clone the Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Install Dependencies
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3️⃣ Run Development Server
+```bash
+npm run dev
+```
+The site will be available at `http://localhost:3000/`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🌎 Deployment & Hosting
+This site is **auto-deployed on Vercel**. If changes made in **Prismic** do not appear, you may need to:
+- Trigger a rebuild by pushing a small commit (e.g., editing the `README.md` file).
+- Manually **redeploy via the Vercel dashboard**.
+- Set up a **Prismic → Vercel webhook** for automatic updates.
 
-## Learn More
+## 📬 Contact
+📧 **Email**: [willstansill@gmail.com](mailto:willstansill@gmail.com)  
+💼 **LinkedIn**: [linkedin.com/in/will-stansill](https://www.linkedin.com/in/will-stansill/)  
+🐙 **GitHub**: [github.com/yourusername](https://github.com/yourusername)
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+*This README serves as a guide to my portfolio repository, providing insights into my work, skills, and technical expertise.*
